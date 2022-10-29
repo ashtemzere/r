@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+body {
+	background: #003975;
+} 
+.first{
+	margin-top: -70px;
+}
+.ico{
+	display: flex;
+	position: relative;
+	background-color: #000000;
+	height: 55px;
+	box-shadow: 0 0 10px 0 #000000;
+}
+.ico h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px; 
+	margin-left: 10px;
+	margin-top: 8px;
+}
+.ico a ion-icon{
+	color: #fff;
+	margin-left: 37vh;
+	margin-top: 15px;
+	font-size: 25px; 
+}
+.container img{
+	width: 60%;
+	height: 37vh;
+	border-radius: 20px;
+	background-color: #fff;
+	float: left;
+	margin-left: 19.5%;
+	margin-top: 29%;
+	box-shadow: 0 0 10px 0 #0C6A9B;
+	
+}
+.text1 h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	text-align: center;
+}
+.ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 91%;
+	float: left;
+}
+.ul li{
+	display: flex;
+	align-items: ceneter;
+	position: relative;
+	margin-top: 10px;
+	left: 5%;
+	height: 80px;
+	background-color: #004D75;
+	box-shadow: 0 0 10px 0 #004D75;
+	border-radius: 10px;
+}
+.text h1{
+	margin-top: 10px;
+	color: #fff;
+	font-size: 20px;
+	margin-left: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+.text span{
+	color: #bdbdbd;
+	font-size: 14px;
+	margin-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+.get{
+	position: absolute;
+	left: 85%;
+	width: 10px;
+	display: flex;
+	justify-content: felx-end;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin-top: 29px;
+}
+
+.ul li a ion-icon{
+	color: #fff;
+	position: sitcky;
+	font-weight: 300;
+	text-decoration: none;
+	background-color: #0F6E9F;
+	padding: 4px 8px 4px 8px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px 0 #0C6A9B;
+}
+.ul img{
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 11px;
+	width: 55px;
+	height: 58px;
+	background-color: black; 
+	box-shadow: 0 0 10px 0 #0C6A9B;}
